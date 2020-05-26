@@ -1,1 +1,8 @@
 /* Edit this template as you wish */
+
+body {
+    background-color: rgb(126, 194, 221);
+  }
+.center {
+    text-align: center;
+}
