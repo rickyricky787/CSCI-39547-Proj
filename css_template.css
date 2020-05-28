@@ -1,8 +1,74 @@
 /* Edit this template as you wish */
 
+/* This is for the background image */
 body {
-    background-color: rgb(126, 194, 221);
+    background: url(https://images.pexels.com/photos/1483880/pexels-photo-1483880.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
   }
-.center {
-    text-align: center;
+
+  /* This is the box were tthe "Welcome" is displayed */
+.header {
+  background-color: rgba(255,255,255, 0.90);
+  padding: 20px;
+  margin: 50px;
+  border-style: solid;
+  border-color: rgb(146, 160, 154);
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* This is for the text inside the header */
+.header h1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+}
+
+.header p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 125%;
+}
+
+/* This is for the box for the main content */
+.box {
+  background-color: rgba(255,255,255, 0.90);
+  padding: 30px;
+  margin: 50px;
+  border-style: solid;
+  border-color: rgb(146, 160, 154);
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.box h2{
+  border-bottom: 1px solid;
+  font-size: 175%;
+}
+
+.box p{
+  text-align: center;
+  font-size: 120%;
+}
+
+/* This is for the image you add, will be at the center at all times, unless you edit it */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* This is for the next page box, used to link all the pages */
+.next-page {
+  background-color: rgba(255,255,255, 0.90);
+  padding: 10px;
+  margin: 50px;
+  border-style: solid;
+  border-color: rgb(146, 160, 154);
+  border-radius: 10px;
+  text-align: center;
 }
