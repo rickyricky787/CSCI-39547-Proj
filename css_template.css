@@ -23,7 +23,6 @@ body {
 /* This is for the text inside the header */
 .header h1{
   font-size: 200%;
-  font-style: italic;
   font-variant: small-caps;
 }
 
